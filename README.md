@@ -14,8 +14,6 @@ and the Flutter guide for
 A Package to decode the google-authenticator migration url.
 
 
-ENTHÄLT PRIVATE KEY:
-
 ## Features
 
 TODO: Decode the google-authenticator migration url.
