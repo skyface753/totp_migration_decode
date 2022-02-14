@@ -8,7 +8,7 @@ void main() {
     final tme = TME();
 
     List<TotpModel> testTotpList = tme.encodeFromUrl(
-        'otpauth-migration://offline?data=CioKCkhpLCBBbmRyZXMSBkFuZHJlcxoOU29tZSBTZXJ2aWNlIDEgASgBMAIKKQoKTm90IFNvIEJhZBIFS2V2aW4aDlNvbWUgU2VydmljZSAyIAEoATACEAE%3D');
+        'otpauth-migration://offline?data=CjkKFD3GyqSCSm0oh2eyMx4gtDFmy4XZEhJqb2huLmRvZUBlbWFpbC5jb20aB0FDTUUgQ28gASgBMAIKKgoKSGksIEFuZHJlcxIGQW5kcmVzGg5Tb21lIFNlcnZpY2UgMSABKAEwAgopCgpOb3QgU28gQmFkEgVLZXZpbhoOU29tZSBTZXJ2aWNlIDIgASgBMAIQARgBIAA%3D');
     for (TotpModel t in testTotpList) {
       print(t.service + ' (' + t.issuer + ') - ' + t.secret);
     }
